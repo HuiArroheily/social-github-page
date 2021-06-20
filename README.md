@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Welcome to my github page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open [https://huiarroheily.github.io/social-github-page/](https://huiarroheily.github.io/social-github-page/) to view it in the browser.
 
 ## Available Scripts
 
