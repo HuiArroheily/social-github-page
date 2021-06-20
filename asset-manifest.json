@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/social-github-page/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/social-github-page/static/js/main.d2e5e297.chunk.js",
-    "main.js.map": "/social-github-page/static/js/main.d2e5e297.chunk.js.map",
-    "runtime-main.js": "/social-github-page/static/js/runtime-main.f9299f68.js",
-    "runtime-main.js.map": "/social-github-page/static/js/runtime-main.f9299f68.js.map",
-    "static/js/2.0959abb9.chunk.js": "/social-github-page/static/js/2.0959abb9.chunk.js",
-    "static/js/2.0959abb9.chunk.js.map": "/social-github-page/static/js/2.0959abb9.chunk.js.map",
-    "static/js/3.353101ea.chunk.js": "/social-github-page/static/js/3.353101ea.chunk.js",
-    "static/js/3.353101ea.chunk.js.map": "/social-github-page/static/js/3.353101ea.chunk.js.map",
+    "main.css": "/social-github-page/static/css/main.d725c3ff.chunk.css",
+    "main.js": "/social-github-page/static/js/main.cebfdb46.chunk.js",
+    "main.js.map": "/social-github-page/static/js/main.cebfdb46.chunk.js.map",
+    "runtime-main.js": "/social-github-page/static/js/runtime-main.6a69ef29.js",
+    "runtime-main.js.map": "/social-github-page/static/js/runtime-main.6a69ef29.js.map",
+    "static/js/2.9fc1aca6.chunk.js": "/social-github-page/static/js/2.9fc1aca6.chunk.js",
+    "static/js/2.9fc1aca6.chunk.js.map": "/social-github-page/static/js/2.9fc1aca6.chunk.js.map",
+    "static/js/3.e2187bc7.chunk.js": "/social-github-page/static/js/3.e2187bc7.chunk.js",
+    "static/js/3.e2187bc7.chunk.js.map": "/social-github-page/static/js/3.e2187bc7.chunk.js.map",
     "index.html": "/social-github-page/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/social-github-page/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.0959abb9.chunk.js.LICENSE.txt": "/social-github-page/static/js/2.0959abb9.chunk.js.LICENSE.txt"
+    "static/css/main.d725c3ff.chunk.css.map": "/social-github-page/static/css/main.d725c3ff.chunk.css.map",
+    "static/js/2.9fc1aca6.chunk.js.LICENSE.txt": "/social-github-page/static/js/2.9fc1aca6.chunk.js.LICENSE.txt",
+    "static/media/bird.d665a6f4.png": "/social-github-page/static/media/bird.d665a6f4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9299f68.js",
-    "static/js/2.0959abb9.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.d2e5e297.chunk.js"
+    "static/js/runtime-main.6a69ef29.js",
+    "static/js/2.9fc1aca6.chunk.js",
+    "static/css/main.d725c3ff.chunk.css",
+    "static/js/main.cebfdb46.chunk.js"
   ]
 }
