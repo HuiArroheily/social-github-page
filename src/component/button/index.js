@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-  mainBtn: {
+  root: {
     backgroundColor: theme.colors.brandAction,
     borderRadius: theme.borderRadius.normal,
     color: theme.colors.white,
@@ -14,13 +14,21 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: theme.colors.brandActionBg,
     },
   },
+  label: {
+    textTransform: 'capitalize',
+  },
 }));
 
-export default function ButtonBase({ children }) {
+export default function ButtonBase(props) {
   const classes = useStyles();
+  const { children, ...otherProps } = props;
 
   return (
-    <Button variant="contained" className={classes.mainBtn}>
+    <Button
+      classes={{ root: classes.root, label: classes.label }}
+      variant="contained"
+      {...otherProps}
+    >
       {children}
     </Button>
   );

@@ -7,6 +7,13 @@ const GreyColor = '#988875';
 const orangeBg = '#f9f2e8';
 const orange = '#d19c63';
 const white = '#ffffff';
+const white03 = '#ffffff4d';
+
+const dimGray = '#5F6268';
+const rocketMetallic = '#877D78';
+const timberWolf = '#E7DFD7';
+const tan = '#D7B08E';
+const rust = '#A54C1C';
 
 const flex = {
   fill: {
@@ -29,6 +36,13 @@ const theme = createMuiTheme({
     orangeBg,
     orange,
     white,
+    white03,
+
+    dimGray,
+    rocketMetallic,
+    timberWolf,
+    tan,
+    rust,
   },
 
   borderRadius: {

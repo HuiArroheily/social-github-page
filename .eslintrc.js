@@ -19,6 +19,8 @@ module.exports = {
   ],
   rules: {
     'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'no-unused-vars': ['warn', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-props-no-spreading': 'off',
   },
 };
