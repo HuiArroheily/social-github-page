@@ -25,6 +25,10 @@ const flex = {
     alignItems: 'center',
     justifyContent: 'center',
   },
+  mainStart: {
+    display: 'flex',
+    justifyContent: 'flex-start',
+  },
 };
 
 const theme = createMuiTheme({
