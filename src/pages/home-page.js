@@ -69,7 +69,7 @@ function HomePage() {
         <div className={classes.colorsTan} />
         <div className={classes.colorsRust} />
         <div className={classes.buttonContainer}>
-          <ButtonBase size="large" href="/leetCode">
+          <ButtonBase size="large" href="/social-github-page/leetCode">
             Hello Welcome Movie World
           </ButtonBase>
         </div>

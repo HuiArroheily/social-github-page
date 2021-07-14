@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route path="/leetCode">
+          <Route path="/social-github-page/leetCode">
             <LeetCodePage />
           </Route>
           <Route path="/">
