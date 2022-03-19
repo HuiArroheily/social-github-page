@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/social-github-page/static/css/main.d725c3ff.chunk.css",
-    "main.js": "/social-github-page/static/js/main.5cb403ad.chunk.js",
-    "main.js.map": "/social-github-page/static/js/main.5cb403ad.chunk.js.map",
+    "main.js": "/social-github-page/static/js/main.3126eac6.chunk.js",
+    "main.js.map": "/social-github-page/static/js/main.3126eac6.chunk.js.map",
     "runtime-main.js": "/social-github-page/static/js/runtime-main.fc461fff.js",
     "runtime-main.js.map": "/social-github-page/static/js/runtime-main.fc461fff.js.map",
     "static/js/2.628a6408.chunk.js": "/social-github-page/static/js/2.628a6408.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fc461fff.js",
     "static/js/2.628a6408.chunk.js",
     "static/css/main.d725c3ff.chunk.css",
-    "static/js/main.5cb403ad.chunk.js"
+    "static/js/main.3126eac6.chunk.js"
   ]
 }
