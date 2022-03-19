@@ -16,13 +16,13 @@ const useStyles = makeStyles(() => ({
 function LeetCode() {
   const [answer, setAnswer] = useState(0);
   const removeFunction = () => {
-    const nums = [1, 1, 1, 1, 1, 2, 2, 4, 4, 8, 8];
+    const numbers = [1, 1, 1, 1, 1, 2, 2, 4, 4, 8, 8];
     let i = 0;
 
-    for (let j = 0; j < nums.length; j += 1) {
-      if (nums[i] !== nums[j]) {
+    for (let j = 0; j < numbers.length; j += 1) {
+      if (numbers[i] !== numbers[j]) {
         i += 1;
-        nums[i] = nums[j];
+        numbers[i] = numbers[j];
       }
     }
     setAnswer(i += 1);
@@ -32,8 +32,8 @@ function LeetCode() {
   return (
     <div className={classes.root}>
       <div>
-        <Typography>Q: nums = [1, 1, 1, 1, 1, 2, 2, 4, 4, 8, 8]</Typography>
-        <Typography>A: 4, nums = [1,2,4,8]</Typography>
+        <Typography>Q: numbers = [1, 1, 1, 1, 1, 2, 2, 4, 4, 8, 8]</Typography>
+        <Typography>A: 4, numbers = [1,2,4,8]</Typography>
         <div className={classes.actionContainer}>
           <ButtonBase size="small" onClick={removeFunction}>
             result
