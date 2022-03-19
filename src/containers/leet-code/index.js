@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { makeStyles, Typography } from '@material-ui/core';
+import { useTranslation } from 'react-i18next';
 import ButtonBase from '../../component/button';
 
 const useStyles = makeStyles(() => ({
@@ -14,6 +15,9 @@ const useStyles = makeStyles(() => ({
 }), { name: 'LeetCode' });
 
 function LeetCode() {
+  const classes = useStyles();
+  const { t } = useTranslation('leet-code');
+
   const [answer, setAnswer] = useState(0);
   const removeFunction = () => {
     const numbers = [1, 1, 1, 1, 1, 2, 2, 4, 4, 8, 8];
@@ -28,7 +32,6 @@ function LeetCode() {
     setAnswer(i += 1);
   };
 
-  const classes = useStyles();
   return (
     <div className={classes.root}>
       <div>
@@ -36,13 +39,13 @@ function LeetCode() {
         <Typography>A: 4, numbers = [1,2,4,8]</Typography>
         <div className={classes.actionContainer}>
           <ButtonBase size="small" onClick={removeFunction}>
-            result
+            {t('result')}
           </ButtonBase>
           <ButtonBase size="small" onClick={() => { setAnswer(0); }}>
-            clear
+            {t('clear')}
           </ButtonBase>
           <ButtonBase size="small" onClick={() => { setAnswer(0); }}>
-            show code
+            {t('show_code')}
           </ButtonBase>
         </div>
         {answer}
