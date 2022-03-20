@@ -7,7 +7,6 @@ const useStyles = makeStyles(() => ({
   root: {
     padding: 32,
     width: '100%',
-    height: '100vh',
   },
   actionContainer: {
     marginTop: 12,
@@ -19,6 +18,8 @@ function LeetCode() {
   const { t } = useTranslation('leet-code');
 
   const [answer, setAnswer] = useState(0);
+  const [numberRes, setNumberRes] = useState([]);
+
   const removeFunction = () => {
     const numbers = [1, 1, 1, 1, 1, 2, 2, 4, 4, 8, 8];
     let i = 0;
@@ -30,6 +31,8 @@ function LeetCode() {
       }
     }
     setAnswer(i += 1);
+    numbers.splice(answer);
+    return setNumberRes(numbers);
   };
 
   return (
@@ -48,7 +51,8 @@ function LeetCode() {
             {t('show_code')}
           </ButtonBase>
         </div>
-        {answer}
+        <div>{answer}</div>
+        <div>{numberRes}</div>
       </div>
     </div>
   );
